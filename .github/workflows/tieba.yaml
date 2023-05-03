@@ -3,7 +3,7 @@ name: 百度签到
 on:
     workflow_dispatch:
     schedule:
-        - cron: '15 4 * * *'
+        - cron: "15 04 * * *"
     watch:
         types: [started]
 
